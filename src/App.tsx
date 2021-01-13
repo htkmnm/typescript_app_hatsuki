@@ -125,7 +125,7 @@ function App() {
     isStart: boolean;
   };
 
-  const mondai2Type = { id: 1, name: 'mondai', url: 'http://mondai.com', isStart: false, };
+  const Mondai2Type = { id: 1, name: 'mondai', url: 'http://mondai.com', isStart: false, };
 
   return (
     <div className="App">
