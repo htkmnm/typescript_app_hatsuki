@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { MondaiType } from './types/UserType'
 
 function App() {
+
+  const mondai: MondaiType = { id: 1, name: "hatsuki", url: "https://mondai.com", isStart: false }
+
   const isFlag1: boolean = true;
   const isFlag2: boolean = false;
 
@@ -145,6 +149,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
